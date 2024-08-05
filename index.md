@@ -6,7 +6,7 @@ We specialize in creating sophisticated data applications, offering both proprie
 
 ## Who We Are
 
-DataDolphin PVT. LTD. is experienced in data engineering and data science solutions. We harness the power of Google Cloud Platform and a wide array of data processing tools to deliver exceptional results in data transformation, analysis, and AI model deployments.
+DataDolphin PTE. LTD. is experienced in data engineering and data science solutions. We harness the power of Google Cloud Platform and a wide array of data processing tools to deliver exceptional results in data transformation, analysis, and AI model deployments.
 
 ## Our Expertise
 
@@ -25,10 +25,10 @@ DataDolphin PVT. LTD. is experienced in data engineering and data science soluti
 ## Contact Us
 
 Get in touch to explore how we can help you transform your data into actionable insights.
-**Email**: [your-email@yourcompany.com](mailto:your-email@yourcompany.com)
+**Email**: [contact@datadolphin.net](mailto:contact@datadolphin.net)
 
 Thank you for visiting. We are excited to help you achieve data excellence.
 
 ---
 
-DataDolphin PVT. LTD. © 2024
+DataDolphin PTE. LTD. © 2024
