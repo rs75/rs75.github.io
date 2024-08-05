@@ -29,6 +29,10 @@ Get in touch to explore how we can help you transform your data into actionable 
 
 Thank you for visiting. We are excited to help you achieve data excellence.
 
+
 ---
+
+
+![DataDolphin Logo](logo.png)
 
 DataDolphin PTE. LTD. © 2024
