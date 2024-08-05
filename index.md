@@ -6,7 +6,7 @@ We specialize in creating sophisticated data applications, offering both proprie
 
 ## Who We Are
 
-[Your Company Name] is a leader in data engineering and data science solutions. We harness the power of Google Cloud Platform and a wide array of data processing tools to deliver exceptional results in data transformation, analysis, and AI model deployments.
+DataDolphin PVT. LTD. is experienced in data engineering and data science solutions. We harness the power of Google Cloud Platform and a wide array of data processing tools to deliver exceptional results in data transformation, analysis, and AI model deployments.
 
 ## Our Expertise
 
@@ -31,4 +31,4 @@ Thank you for visiting. We are excited to help you achieve data excellence.
 
 ---
 
-[Your Company Name] © 2024. All rights reserved.```
+DataDolphin PVT. LTD. © 2024
