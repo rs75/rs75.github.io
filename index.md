@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<p align="center">
+  <img src="logo.png"  style = "max-width:300px"/>
+</p>
+
 We specialize in creating sophisticated data applications, offering both proprietary solutions and expert consultancy in data engineering and data science. Our team is proficient in modern technologies and platforms, ensuring cutting-edge solutions for all your data needs.
 
 ## Who We Are
@@ -28,6 +32,9 @@ Get in touch to explore how we can help you transform your data into actionable 
 **Email**: [contact@datadolphin.net](mailto:contact@datadolphin.net)
 
 Thank you for visiting. We are excited to help you achieve data excellence.
+
+
+
 
 
 ---
