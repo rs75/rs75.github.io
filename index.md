@@ -29,7 +29,26 @@ DataDolphin PTE. LTD. is experienced in data engineering and data science soluti
 ## Contact Us
 
 Get in touch to explore how we can help you transform your data into actionable insights.
-**Email**: [contact@datadolphin.net](mailto:contact@datadolphin.net)
+
+
+**Email**: <span id="email"></span>
+
+<script>
+  // Obfuscate the email address parts
+  var part1 = "contact";
+  var part2 = "datadolphin";
+  var part3 = "net";
+  
+  // Construct the email address
+  var email = part1 + "(at)" + part2 + "." + part3;
+  
+  // Modify the display to replace '@' with '(at)'
+  var displayEmail = part1 + "(at)" + part2 + "." + part3;
+  
+  // Insert the obfuscated email into the page
+  document.getElementById("email").innerHTML = '<a href="#">' + displayEmail + '</a>';
+</script>
+
 
 Thank you for visiting. We are excited to help you achieve data excellence.
 
