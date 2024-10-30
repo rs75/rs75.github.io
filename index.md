@@ -35,7 +35,7 @@ Get in touch to explore how we can help you transform your data into actionable 
 
 <script>
   // Obfuscate the email address parts
-  var part1 = "contact";
+  var part1 = "info";
   var part2 = "datadolphin";
   var part3 = "net";
   
