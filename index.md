@@ -14,10 +14,10 @@ DataDolphin PTE. LTD. is experienced in data engineering and data science soluti
 
 ## Our Expertise
 
-- **Google Cloud Platform**: Extensive experience in leveraging GCP for scalable cloud solutions.
 - **ETL Processes**: Expertise in designing robust ETL pipelines using tools like Airflow and DBT.
 - **Data Programming**: Advanced proficiency in Python and SQL for data manipulation and analytics.
 - **Data Processing**: Skilled in both streaming and batch data processing to handle diverse data workflows.
+- **Google Cloud Platform**: Extensive experience in leveraging GCP for scalable cloud solutions.
 - **AI and Machine Learning**: Training, deploying, and operating AI models with precision and efficiency.
 
 ## Services We Offer
