@@ -168,7 +168,6 @@ Thank you for visiting. We are excited to help you achieve data excellence.
 
 ---
 
-DataDolphin PTE. LTD. © 2025
 
 <div class="footer">
   DataDolphin PTE. LTD. © 2024 | <a href="/privacy-policy">Privacy Policy</a>

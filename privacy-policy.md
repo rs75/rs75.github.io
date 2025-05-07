@@ -157,7 +157,7 @@ title: Privacy Policy
 
 <script>
   // Obfuscate the email address parts
-  var part1 = "privacy";
+  var part1 = "info";
   var part2 = "datadolphin";
   var part3 = "net";
   

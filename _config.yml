@@ -10,3 +10,7 @@ social:
   github: datadolphin
   linkedin: company/datadolphin
   twitter: datadolphin
+footer-links:
+  github: false
+  twitter: false
+  show_downloads: false
