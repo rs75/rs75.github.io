@@ -155,13 +155,10 @@ Get in touch to explore how we can help you transform your data into actionable 
   var part3 = "net";
   
   // Construct the email address
-  var email = part1 + "(at)" + part2 + "." + part3;
+  var email = part1 + "@" + part2 + "." + part3;
   
-  // Modify the display to replace '@' with '(at)'
-  var displayEmail = part1 + "(at)" + part2 + "." + part3;
-  
-  // Insert the obfuscated email into the page
-  document.getElementById("email").innerHTML = '<a href="#">' + displayEmail + '</a>';
+  // Create a clickable email link with proper mailto: protocol
+  document.getElementById("email").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
 </script>
 
 Thank you for visiting. We are excited to help you achieve data excellence.
