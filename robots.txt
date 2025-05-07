@@ -1,0 +1,10 @@
+# Block specific blog pages
+User-agent: *
+Disallow: /blog/How-to-appear-younger-in-photos
+
+User-agent: ia_archiver
+Disallow: /
+
+# Allow all other bots access
+User-agent: *
+Allow: /
