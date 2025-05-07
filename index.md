@@ -6,30 +6,13 @@ layout: default
   <img src="logo.png" style="max-width:300px"/>
 </p>
 
-We build sophisticated data applications, offering both proprietary software and expert consulting in data engineering and data science. Our team excels in modern technologies, developing and operating our own applications, while helping clients build theirs.
-
+We specialize in creating sophisticated data applications. Our team leverages cutting-edge technologies to develop and operate our proprietary software, focusing on data engineering and data science innovations.
 
 ## Who We Are
 
-DataDolphin PTE. LTD. is a leading provider of data engineering and data science solutions. We combine deep technical expertise with innovative approaches to deliver exceptional results in data transformation, analysis, and AI model deployments.
+DataDolphin PTE. LTD. pioneers advanced data engineering and data science applications. We combine deep technical expertise with innovative approaches to build powerful tools for data transformation, analysis, and AI-driven insights.
 
-## Our Expertise
-
-- **AI and Machine Learning**: Training, deploying, and operating AI models with precision and efficiency
-- **LLM Prompt Design & Integration**: Crafting precise prompts for large-language models and developing intelligent AI agents
-- **App Development**: Cross-platform AI app development for Android, iOS, and web using Flutter
-- **ETL Processes**: Expertise in designing robust ETL pipelines using tools like Airflow and DBT
-- **Data Programming**: Advanced proficiency in Python and SQL for data manipulation and analytics
-- **Data Processing**: Skilled in both streaming and batch data processing to handle diverse data workflows
-- **Google Cloud Platform**: Extensive experience in leveraging GCP for scalable cloud solutions
-
-## Services We Offer
-
-- **Application Development**: Design and development of custom data applications for web and mobile platforms
-- **Consultancy Services**: Providing expert advice and implementation services in data engineering and data science
-- **Training and Support**: Offering comprehensive training sessions and continuous support for AI and data science integrations
-
-## Our Projects
+## Our Products
 
 <div class="projects-container">
   <div class="project-item">
@@ -76,6 +59,18 @@ DataDolphin PTE. LTD. is a leading provider of data engineering and data science
     </div>
   </div>
 </div>
+
+## Our Technology & Approach
+
+Our applications are built on a foundation of robust and modern technologies:
+
+- **AI and Machine Learning**: Powering our applications with cutting-edge AI and Machine Learning models, trained and operated for precision and efficiency.
+- **LLM Prompt Design & Integration**: Integrating Large Language Models (LLMs) through meticulous prompt design and the development of intelligent AI agents within our software.
+- **App Development**: Developing intuitive and responsive cross-platform AI applications for Android, iOS, and web using Flutter.
+- **ETL Processes**: Employing robust ETL processes using tools like Airflow and DBT to manage and refine the data that powers our applications.
+- **Data Programming**: Utilizing advanced Python and SQL for complex data manipulation, analytics, and backend development of our platforms.
+- **Data Processing**: Implementing efficient streaming and batch data processing to ensure our applications handle diverse data workflows seamlessly.
+- **Google Cloud Platform**: Leveraging Google Cloud Platform (GCP) to build scalable and reliable cloud infrastructure for our applications.
 
 <style>
 .projects-container {
@@ -145,7 +140,7 @@ DataDolphin PTE. LTD. is a leading provider of data engineering and data science
 
 ## Contact Us
 
-Get in touch to explore how we can help you transform your data into actionable insights.
+Have questions about our products or want to learn more? We'd love to hear from you.
 
 **Email**: <span id="email"></span>
 
@@ -162,11 +157,10 @@ Get in touch to explore how we can help you transform your data into actionable 
   document.getElementById("email").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
 </script>
 
-Thank you for visiting. We are excited to help you achieve data excellence.
 
 ---
 
 
 <div class="footer">
-  DataDolphin PTE. LTD. © 2024 | <a href="/privacy-policy">Privacy Policy</a>
+  DataDolphin PTE. LTD. © 2025 | <a href="/privacy-policy">Privacy Policy</a>
 </div>
