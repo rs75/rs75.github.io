@@ -6,7 +6,8 @@ layout: default
   <img src="logo.png" style="max-width:300px"/>
 </p>
 
-We specialize in creating sophisticated data applications, offering both proprietary solutions and expert consultancy in data engineering and data science. Our team is proficient in modern technologies and platforms, ensuring cutting-edge solutions for all your data needs.
+We specialize in creating sophisticated data applications, offering both proprietary solutions and expert consultancy in data engineering and data science. Our team is proficient in modern technologies and platforms. We develop and operate our own software and help others to build theirs.
+
 
 ## Who We Are
 
