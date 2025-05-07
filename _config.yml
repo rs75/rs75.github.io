@@ -1,6 +1,12 @@
 title: DataDolphin
-description: #Transforming Data into Insightful Solutions
+description: Transforming Data into Insightful Solutions - Expert Data Engineering and AI Solutions
 remote_theme: pages-themes/cayman@v0.2.0
 show_downloads: false
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-remote-theme
+favicon: favicon.ico
+google_analytics: # Add your GA tracking ID here
+social:
+  github: datadolphin
+  linkedin: company/datadolphin
+  twitter: datadolphin
