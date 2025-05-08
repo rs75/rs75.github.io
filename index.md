@@ -35,6 +35,7 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
         <a href="https://apps.apple.com/us/app/attractiveness-ai/id6741153581" class="app-store-link">
           <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store" height="40">
         </a>
+        <a href="https://attractivenessai.com/" class="website-link" style="margin-left: 10px;">Website →</a>
       </div>
     </div>
   </div>
@@ -65,7 +66,6 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
       <p>An AI-powered web app that finds your celebrity look-alike using advanced facial recognition technology.</p>
       <div class="project-links">
         <a href="https://mycelebritylookalike.com/" class="website-link">Visit Website →</a>
-        <a href="https://attractivenessai.com/" class="website-link" style="margin-left: 10px;">Attractiveness AI →</a>
       </div>
     </div>
   </div>
@@ -122,10 +122,13 @@ Our applications are built on a foundation of robust and modern technologies:
 
 .project-links {
   margin-top: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .app-store-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   transition: opacity 0.3s ease;
 }
 
@@ -134,7 +137,8 @@ Our applications are built on a foundation of robust and modern technologies:
 }
 
 .website-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   padding: 0.75rem 1.5rem;
   background: #2c3e50;
   color: white;
@@ -142,6 +146,8 @@ Our applications are built on a foundation of robust and modern technologies:
   border-radius: 6px;
   font-weight: 500;
   transition: background-color 0.3s ease;
+  height: 40px;
+  box-sizing: border-box;
 }
 
 .website-link:hover {
