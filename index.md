@@ -179,5 +179,5 @@ Have questions about our products or want to learn more? We'd love to hear from 
 
 
 <div class="footer">
-  DataDolphin PTE. LTD. © 2025 | <a href="/privacy-policy">Privacy Policy</a>
+  DataDolphin PTE. LTD. © 2025 | <a href="/privacy-policy">Privacy Policy</a> |  <a href="/terms-of-use">Terms of Use</a>
 </div>

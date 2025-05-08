@@ -11,17 +11,9 @@ Last updated: March 2024
 
 By accessing and using the services provided by DataDolphin PTE. LTD. ("we," "our," or "us"), including but not limited to our websites and applications (collectively, the "Services"), you agree to be bound by these Terms of Use ("Terms"). If you do not agree to these Terms, please do not use our Services.
 
-## 2. Description of Services
 
-Our Services include various AI-powered applications and platforms, including:
-- Looksmax Report
-- Attractiveness AI
-- Rate My Photo
-- Attractiveness Test
-- Celebrity Lookalike
-- And other related services
 
-## 3. User Responsibilities
+## 2. User Responsibilities
 
 You agree to:
 - Provide accurate and complete information when using our Services
@@ -30,27 +22,27 @@ You agree to:
 - Not use our Services to violate any applicable laws or regulations
 - Not upload or transmit any harmful code or malware
 
-## 4. Privacy
+## 3. Privacy
 
 Your use of our Services is also governed by our Privacy Policy, which can be found at [Privacy Policy](/privacy-policy).
 
-## 5. Intellectual Property
+## 4. Intellectual Property
 
 All content, features, and functionality of our Services, including but not limited to text, graphics, logos, images, and software, are owned by DataDolphin PTE. LTD. and are protected by international copyright, trademark, and other intellectual property laws.
 
-## 6. Limitation of Liability
+## 5. Limitation of Liability
 
 To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use our Services.
 
-## 7. Modifications to Terms
+## 6. Modifications to Terms
 
 We reserve the right to modify these Terms at any time. We will notify users of any material changes by posting the new Terms on our website. Your continued use of our Services after such modifications constitutes your acceptance of the modified Terms.
 
-## 8. Governing Law
+## 7. Governing Law
 
 These Terms shall be governed by and construed in accordance with the laws of Singapore, without regard to its conflict of law provisions.
 
-## 9. Contact Information
+## 8. Contact Information
 
 If you have any questions about these Terms, please contact us at:
 
