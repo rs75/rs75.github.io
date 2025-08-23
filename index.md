@@ -23,6 +23,10 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
         <a href="https://apps.apple.com/app/looksmax-report/id6737451002" class="app-store-link">
           <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store" height="40">
         </a>
+        <a href="https://play.google.com/store/apps/details?id=com.rsapps.looksmaxreport" class="app-store-link" style="margin-left: 10px;">
+          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="40">
+        </a>
+        <a href="https://attractivenesstest.com/looksmax" class="website-link" style="margin-left: 10px;">Website →</a>
       </div>
     </div>
   </div>
@@ -34,6 +38,9 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
       <div class="project-links">
         <a href="https://apps.apple.com/us/app/attractiveness-ai/id6741153581" class="app-store-link">
           <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store" height="40">
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.datadolphinapps.attractiveness_ai" class="app-store-link" style="margin-left: 10px;">
+          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="40">
         </a>
         <a href="https://attractivenessai.com/" class="website-link" style="margin-left: 10px;">Website →</a>
       </div>
