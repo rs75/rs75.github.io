@@ -21,12 +21,12 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
       <p>A sophisticated mobile app that provides detailed facial analysis and improvement recommendations.</p>
       <div class="project-links">
         <a href="https://apps.apple.com/app/looksmax-report/id6737451002" class="app-store-link">
-          <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store" height="40">
+          <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store" height="58">
         </a>
         <a href="https://play.google.com/store/apps/details?id=com.rsapps.looksmaxreport" class="app-store-link" style="margin-left: 10px;">
-          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="40">
+          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="58">
         </a>
-        <a href="https://attractivenesstest.com/looksmax" class="website-link" style="margin-left: 10px;">Website →</a>
+        <a href="https://attractivenesstest.com/looksmax" class="website-link" style="margin-left: 10px;">Website</a>
       </div>
     </div>
   </div>
@@ -37,12 +37,12 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
       <p>An innovative mobile application that uses advanced AI to analyze facial features and provide insights.</p>
       <div class="project-links">
         <a href="https://apps.apple.com/us/app/attractiveness-ai/id6741153581" class="app-store-link">
-          <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store" height="40">
+          <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store" height="58">
         </a>
         <a href="https://play.google.com/store/apps/details?id=com.datadolphinapps.attractiveness_ai" class="app-store-link" style="margin-left: 10px;">
-          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="40">
+          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="58">
         </a>
-        <a href="https://attractivenessai.com/" class="website-link" style="margin-left: 10px;">Website →</a>
+        <a href="https://attractivenessai.com/" class="website-link" style="margin-left: 10px;">Website</a>
       </div>
     </div>
   </div>
@@ -52,7 +52,7 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
       <h3>Rate My Photo</h3>
       <p>A powerful web application that offers professional photo analysis and feedback.</p>
       <div class="project-links">
-        <a href="https://rate-my-photo.com/" class="website-link">Visit Website →</a>
+        <a href="https://rate-my-photo.com/" class="website-link">Visit Website</a>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
       <h3>Attractiveness Test</h3>
       <p>An AI-powered web platform for facial analysis and attractiveness assessment.</p>
       <div class="project-links">
-        <a href="https://attractivenesstest.com/" class="website-link">Visit Website →</a>
+        <a href="https://attractivenesstest.com/" class="website-link">Visit Website</a>
       </div>
     </div>
   </div>
@@ -72,7 +72,7 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
       <h3>Celebrity Lookalike</h3>
       <p>An AI-powered web app that finds your celebrity look-alike using advanced facial recognition technology.</p>
       <div class="project-links">
-        <a href="https://mycelebritylookalike.com/" class="website-link">Visit Website →</a>
+        <a href="https://mycelebritylookalike.com/" class="website-link">Visit Website</a>
       </div>
     </div>
   </div>
