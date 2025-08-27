@@ -26,7 +26,7 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
         <a href="https://play.google.com/store/apps/details?id=com.rsapps.looksmaxreport" class="app-store-link" style="margin-left: 10px;">
           <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="58">
         </a>
-        <a href="https://attractivenesstest.com/looksmax" class="website-link" style="margin-left: 10px;">Website</a>
+        <!-- <a href="https://attractivenesstest.com/looksmax" class="website-link" style="margin-left: 10px;">Website</a> -->
       </div>
     </div>
   </div>
@@ -67,7 +67,7 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
     </div>
   </div>
 
-  <div class="project-item">
+  <!-- <div class="project-item">
     <div class="project-content">
       <h3>Celebrity Lookalike</h3>
       <p>An AI-powered web app that finds your celebrity look-alike using advanced facial recognition technology.</p>
@@ -76,7 +76,7 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 ## Our Technology & Approach
 
