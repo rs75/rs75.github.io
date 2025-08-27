@@ -12,7 +12,7 @@ We specialize in creating sophisticated data applications. Our team leverages cu
 
 DataDolphin PTE. LTD. pioneers advanced data engineering and data science applications. We combine deep technical expertise with innovative approaches to build powerful tools for data transformation, analysis, and AI-driven insights.
 
-## Our Products
+## Portfolio
 
 <div class="projects-container">
   <div class="project-item">
