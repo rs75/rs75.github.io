@@ -67,7 +67,7 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
     </div>
   </div>
 
-  <div class="project-item">
+ <div class="project-item">
     <div class="project-content">
       <h3>Celebrity Lookalike</h3>
       <p>An AI-powered web app that finds your celebrity look-alike using advanced facial recognition technology.</p>
@@ -75,7 +75,7 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
         <a href="https://mycelebritylookalike.com/" class="website-link">Visit Website</a>
       </div>
     </div>
-  </div>
+  </div> 
 </div> 
 
 ## Our Technology & Approach
