@@ -76,6 +76,16 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
       </div>
     </div>
   </div>
+
+  <div class="project-item">
+    <div class="project-content">
+      <h3>Food Ranking</h3>
+      <p>Independent, evidence-based food and nutrition rankings platform that helps users make healthier dietary choices through comprehensive analysis of thousands of products.</p>
+      <div class="project-links">
+        <a href="https://food-ranking.com/" class="website-link">Visit Website</a>
+      </div>
+    </div>
+  </div>
 </div> 
 
 ## Our Technology & Approach
