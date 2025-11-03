@@ -47,7 +47,7 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
     </div>
   </div>
 
-  <div class="project-item">
+  <!-- <div class="project-item">
     <div class="project-content">
       <h3>Rate My Photo</h3>
       <p>A powerful web application that offers professional photo analysis and feedback.</p>
@@ -75,7 +75,7 @@ DataDolphin PTE. LTD. pioneers advanced data engineering and data science applic
         <a href="https://mycelebritylookalike.com/" class="website-link">Visit Website</a>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="project-item">
     <div class="project-content">
