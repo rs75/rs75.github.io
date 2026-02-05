@@ -11,6 +11,14 @@ We specialize in creating sophisticated data applications. Our team leverages cu
 ## Who We Are
 
 DataDolphin PTE. LTD. pioneers advanced data engineering and data science applications. We combine deep technical expertise with innovative approaches to build powerful tools for data transformation, analysis, and AI-driven insights.
+
+## Services We Offer
+
+- **Application Development**: Design and development of custom data applications for web and mobile platforms
+- **Consultancy Services**: Providing expert advice and implementation services in data engineering and data science
+- **Training and Support**: Offering comprehensive training sessions and continuous support for AI and data science integrations
+
+
 ## Our Technology & Approach
 
 Our applications are built on a foundation of robust and modern technologies:
