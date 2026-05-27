@@ -31,6 +31,78 @@ Our applications are built on a foundation of robust and modern technologies:
 - **Data Processing**: Implementing efficient streaming and batch data processing to ensure our applications handle diverse data workflows seamlessly.
 - **Google Cloud Platform**: Leveraging Google Cloud Platform (GCP) to build scalable and reliable cloud infrastructure for our applications.
 
+todo: mention agentic workflows
+
+
+
+## Portfolio
+
+<div class="projects-container">
+  <div class="project-item">
+    <div class="project-content">
+      <h3>Looksmax Report</h3>
+      <p>A sophisticated mobile app that provides detailed facial analysis and improvement recommendations.</p>
+      <div class="project-links">
+        <a href="https://apps.apple.com/app/looksmax-report/id6737451002" class="app-store-link">
+          <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store" height="58">
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.rsapps.looksmaxreport" class="app-store-link" style="margin-left: 10px;">
+          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="58">
+        </a>
+        <!-- <a href="https://attractivenesstest.com/looksmax" class="website-link" style="margin-left: 10px;">Website</a> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="project-item">
+    <div class="project-content">
+      <h3>Attractiveness AI</h3>
+      <p>An innovative mobile application that uses advanced AI to analyze facial features and provide insights.</p>
+      <div class="project-links">
+        <a href="https://apps.apple.com/us/app/attractiveness-ai/id6741153581" class="app-store-link">
+          <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store" height="58">
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.datadolphinapps.attractiveness_ai" class="app-store-link" style="margin-left: 10px;">
+          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="58">
+        </a>
+        <a href="https://attractivenessai.com/" class="website-link" style="margin-left: 10px;">Website</a>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="project-content">
+      <h3>Rate My Photo</h3>
+      <p>A powerful web application that offers professional photo analysis and feedback.</p>
+      <div class="project-links">
+        <a href="https://rate-my-photo.com/" class="website-link">Visit Website</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-item">
+    <div class="project-content">
+      <h3>Attractiveness Test</h3>
+      <p>An AI-powered web platform for facial analysis and attractiveness assessment.</p>
+      <div class="project-links">
+        <a href="https://attractivenesstest.com/" class="website-link">Visit Website</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="project-item">
+    <div class="project-content">
+      <h3>SkinMax - AI Skincare</h3>
+      <p>find text...</p>
+      <div class="project-links">
+        <a href="https://howolddoyoulook.com/skincare" class="website-link">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</div> 
+
 <style>
 .projects-container {
   display: grid;

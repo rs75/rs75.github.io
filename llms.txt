@@ -1,0 +1,48 @@
+# DataDolphin
+
+> DataDolphin PTE. LTD. is a Singapore-based AI and data technology company that builds sophisticated data applications and provides expert consultancy in data engineering, machine learning, and AI integration.
+
+## About
+
+DataDolphin pioneers advanced data engineering and data science applications. We combine deep technical expertise with an innovative, product-first approach to build powerful tools for data transformation, analysis, and AI-driven insights. We operate our own portfolio of AI-powered consumer products, giving us hands-on product experience that directly benefits our consulting clients.
+
+- Company: DataDolphin PTE. LTD.
+- Location: Singapore
+- Website: https://datadolphin.net
+- Email: info@datadolphin.net
+
+## Services
+
+- **Application Development**: Design and development of custom data applications for web and mobile platforms using Flutter (iOS & Android), React, and modern web technologies with AI-powered features.
+- **AI & Data Consultancy**: Expert strategy and hands-on implementation in data engineering, LLM integration, agentic workflows, ETL pipeline architecture, ML model deployment, and cloud infrastructure on GCP.
+- **Training & Support**: Comprehensive workshops and ongoing support for AI/ML teams — covering LLM prompt engineering, data pipeline best practices, and AI integration.
+
+## Products
+
+- **Looksmax Report** — AI-powered facial analysis mobile app (iOS & Android). Provides detailed analysis and personalised improvement recommendations. [App Store](https://apps.apple.com/app/looksmax-report/id6737451002) | [Google Play](https://play.google.com/store/apps/details?id=com.rsapps.looksmaxreport)
+- **Attractiveness AI** — Advanced AI app for facial feature analysis with detailed attractiveness insights (iOS, Android & Web). [App Store](https://apps.apple.com/us/app/attractiveness-ai/id6741153581) | [Website](https://attractivenessai.com/)
+- **Rate My Photo** — AI-powered web platform for professional photo analysis and quality feedback. [Website](https://rate-my-photo.com/)
+- **Attractiveness Test** — AI-powered web platform for comprehensive facial analysis and attractiveness scoring. [Website](https://attractivenesstest.com/)
+- **SkinMax — AI Skincare** — AI skincare analysis platform delivering personalised skin health insights and product recommendations. [Website](https://howolddoyoulook.com/skincare)
+
+## Technology Stack
+
+- AI & Machine Learning (computer vision, deep learning, precision inference)
+- LLM Integration & Prompt Design (GPT, Claude, Gemini)
+- Agentic Workflows (autonomous AI systems, multi-step reasoning)
+- Flutter (cross-platform iOS & Android development)
+- ETL Pipelines (Apache Airflow, DBT)
+- Python & SQL (data engineering, analytics, backend)
+- Data Processing (streaming and batch architectures)
+- Google Cloud Platform — GCP (BigQuery, Cloud Run, Cloud Storage, Vertex AI)
+
+## Social & Links
+
+- LinkedIn: https://www.linkedin.com/company/datadolphin
+- GitHub: https://github.com/datadolphin
+
+## Legal
+
+- Privacy Policy: https://datadolphin.net/privacy-policy.html
+- Terms of Use: https://datadolphin.net/terms-of-use.html
+- Registered in Singapore under DataDolphin PTE. LTD.

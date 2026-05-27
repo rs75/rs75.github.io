@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DataDolphin builds AI-powered data applications and offers expert consultancy in data engineering, LLM integration, and mobile development. Based in Singapore.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://datadolphin.net/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DataDolphin">
+  <meta property="og:url" content="https://datadolphin.net/">
+  <meta property="og:title" content="DataDolphin — AI & Data Applications">
+  <meta property="og:description" content="DataDolphin builds AI-powered data applications and offers expert consultancy in data engineering, LLM integration, and mobile development. Based in Singapore.">
+  <meta property="og:image" content="https://datadolphin.net/logo.png">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@datadolphin">
+  <meta name="twitter:title" content="DataDolphin — AI & Data Applications">
+  <meta name="twitter:description" content="DataDolphin builds AI-powered data applications and offers expert consultancy in data engineering, LLM integration, and mobile development. Based in Singapore.">
+  <meta name="twitter:image" content="https://datadolphin.net/logo.png">
+
+  <title>DataDolphin — AI & Data Applications</title>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "DataDolphin",
+      "legalName": "DataDolphin PTE. LTD.",
+      "url": "https://datadolphin.net",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://datadolphin.net/logo.png"
+      },
+      "description": "Singapore-based technology company specialising in AI-powered data applications, data engineering, and LLM integration.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SG"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@datadolphin.net",
+        "contactType": "customer support"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "DataDolphin",
+      "url": "https://datadolphin.net"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "DataDolphin Products",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "MobileApplication",
+            "name": "Looksmax Report",
+            "description": "AI-powered facial analysis mobile app providing detailed analysis and personalised improvement recommendations.",
+            "operatingSystem": "iOS, Android",
+            "applicationCategory": "HealthApplication",
+            "url": "https://apps.apple.com/app/looksmax-report/id6737451002",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "MobileApplication",
+            "name": "Attractiveness AI",
+            "description": "Advanced AI app analysing facial features to provide detailed attractiveness insights and personalised feedback.",
+            "operatingSystem": "iOS, Android",
+            "applicationCategory": "HealthApplication",
+            "url": "https://apps.apple.com/us/app/attractiveness-ai/id6741153581",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "WebApplication",
+            "name": "Rate My Photo",
+            "description": "AI-powered web platform offering professional photo analysis and detailed quality feedback.",
+            "applicationCategory": "PhotographyApplication",
+            "url": "https://rate-my-photo.com/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "WebApplication",
+            "name": "Attractiveness Test",
+            "description": "AI-powered web platform for comprehensive facial analysis and attractiveness scoring.",
+            "applicationCategory": "HealthApplication",
+            "url": "https://attractivenesstest.com/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "WebApplication",
+            "name": "SkinMax — AI Skincare",
+            "description": "AI skincare analysis platform delivering personalised skin health insights and product recommendations.",
+            "applicationCategory": "HealthApplication",
+            "url": "https://howolddoyoulook.com/skincare"
+          }
+        }
+      ]
+    }
+  ]
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] },
+          colors: {
+            brand: {
+              50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe',
+              300: '#93c5fd', 400: '#60a5fa', 500: '#3b82f6',
+              600: '#2563eb', 700: '#1d4ed8', 800: '#1e40af', 900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo.png" type="image/png">
+
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #F8FAFC; }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #2563EB 0%, #0EA5E9 50%, #6366F1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-bg {
+      background: linear-gradient(145deg, #EFF6FF 0%, #F0F9FF 40%, #F5F3FF 100%);
+    }
+
+    #particles-canvas {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      pointer-events: none;
+    }
+
+    .glass-nav {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(226, 232, 240, 0.7);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #2563EB, #0EA5E9);
+      transition: all 0.25s ease;
+    }
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #1D4ED8, #0284C7);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px rgba(37, 99, 235, 0.28);
+    }
+
+    .card-hover {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 48px rgba(37, 99, 235, 0.1);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .tech-pill {
+      transition: all 0.2s ease;
+    }
+    .tech-pill:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(37, 99, 235, 0.12);
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-14px) rotate(2deg); }
+    }
+    @keyframes float2 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-10px) rotate(-2deg); }
+    }
+    .float-a { animation: float 7s ease-in-out infinite; }
+    .float-b { animation: float2 9s ease-in-out infinite 1.5s; }
+
+    @keyframes pulse-ring {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.95); }
+    }
+    .pulse-dot { animation: pulse-ring 2.2s ease-in-out infinite; }
+
+    .product-header-1 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+    .product-header-2 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+    .product-header-3 { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+    .product-header-4 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+    .product-header-5 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+
+    .section-label {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #2563EB;
+      margin-bottom: 0.75rem;
+    }
+  </style>
+</head>
+
+<body class="text-slate-900 antialiased">
+
+  <!-- ==============================
+       NAVIGATION
+  ================================ -->
+  <nav id="navbar" class="glass-nav fixed top-0 left-0 right-0 z-50">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+
+        <!-- Logo -->
+        <a href="#" class="flex items-center gap-2.5 group">
+          <img src="logo.png" alt="DataDolphin Logo" class="h-8 w-auto">
+          <span class="font-bold text-lg text-slate-900 group-hover:text-brand-600 transition-colors">DataDolphin</span>
+        </a>
+
+        <!-- Desktop Links -->
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#about" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">About</a>
+          <a href="#services" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">Services</a>
+          <a href="#technology" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">Technology</a>
+          <a href="#portfolio" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">Portfolio</a>
+          <a href="#contact" class="btn-primary text-sm font-semibold text-white px-5 py-2.5 rounded-full">
+            Get in Touch
+          </a>
+        </div>
+
+        <!-- Mobile Hamburger -->
+        <button id="mobile-btn" aria-label="Toggle menu"
+          class="md:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 transition-colors">
+          <svg id="icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+          <svg id="icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden border-t border-slate-100 bg-white/95">
+      <div class="max-w-7xl mx-auto px-5 py-4 space-y-0.5">
+        <a href="#about"      class="nav-link block py-3 text-sm font-medium text-slate-700 hover:text-brand-600 border-b border-slate-50 transition-colors">About</a>
+        <a href="#services"   class="nav-link block py-3 text-sm font-medium text-slate-700 hover:text-brand-600 border-b border-slate-50 transition-colors">Services</a>
+        <a href="#technology" class="nav-link block py-3 text-sm font-medium text-slate-700 hover:text-brand-600 border-b border-slate-50 transition-colors">Technology</a>
+        <a href="#portfolio"  class="nav-link block py-3 text-sm font-medium text-slate-700 hover:text-brand-600 border-b border-slate-50 transition-colors">Portfolio</a>
+        <a href="#contact"    class="nav-link block py-3 text-sm font-semibold text-brand-600 hover:text-brand-700 transition-colors">Get in Touch →</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- ==============================
+       HERO
+  ================================ -->
+  <section class="relative min-h-screen hero-bg flex items-center pt-16 overflow-hidden">
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Decorative blobs -->
+    <div class="absolute top-1/3 right-0 w-80 h-80 lg:w-[500px] lg:h-[500px] bg-blue-100 rounded-full blur-3xl opacity-40 pointer-events-none float-a"></div>
+    <div class="absolute bottom-1/4 right-1/3 w-64 h-64 bg-indigo-100 rounded-full blur-3xl opacity-30 pointer-events-none float-b"></div>
+    <div class="absolute top-1/4 left-0 w-48 h-48 bg-sky-100 rounded-full blur-3xl opacity-25 pointer-events-none float-a" style="animation-delay:3s"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-5 lg:px-8 py-20 lg:py-32">
+      <div class="max-w-4xl">
+
+        <!-- Badge -->
+        <div class="inline-flex items-center gap-2 bg-white border border-brand-100 shadow-sm rounded-full px-4 py-2 mb-8 reveal">
+          <span class="w-2 h-2 bg-brand-500 rounded-full pulse-dot"></span>
+          <span class="text-xs font-semibold text-brand-700 tracking-wide">Pioneering AI & Data Innovation</span>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight text-slate-900 mb-6 reveal">
+          Turning Data<br>Into
+          <span class="gradient-text"> Intelligence</span>
+        </h1>
+
+        <p class="text-lg md:text-xl text-slate-600 leading-relaxed mb-10 max-w-2xl reveal">
+          We build sophisticated AI-powered applications and data pipelines that transform
+          complex information into powerful insights — from mobile apps to enterprise-grade
+          agentic workflows.
+        </p>
+
+        <div class="flex flex-wrap gap-4 reveal">
+          <a href="#portfolio" class="btn-primary inline-flex items-center gap-2 text-white font-semibold px-8 py-4 rounded-full text-sm">
+            Explore Our Work
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+          <a href="#contact" class="inline-flex items-center gap-2 bg-white text-slate-800 font-semibold px-8 py-4 rounded-full border border-slate-200 hover:border-brand-200 hover:text-brand-600 hover:shadow-lg text-sm transition-all duration-250">
+            Get in Touch
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       STATS BAR
+  ================================ -->
+  <section class="bg-white border-y border-slate-100 py-12">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div class="reveal">
+          <div class="text-3xl font-extrabold text-slate-900 mb-1">10+</div>
+          <div class="text-sm text-slate-500 font-medium">Products Shipped</div>
+        </div>
+        <div class="reveal">
+          <div class="text-3xl font-extrabold gradient-text mb-1">1M+</div>
+          <div class="text-sm text-slate-500 font-medium">Users Worldwide</div>
+        </div>
+        <div class="reveal">
+          <div class="text-3xl font-extrabold text-slate-900 mb-1">3+</div>
+          <div class="text-sm text-slate-500 font-medium">Years of Expertise</div>
+        </div>
+        <div class="reveal">
+          <div class="text-3xl font-extrabold gradient-text mb-1">AI‑First</div>
+          <div class="text-sm text-slate-500 font-medium">Engineering Philosophy</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       ABOUT
+  ================================ -->
+  <section id="about" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+      <div class="max-w-3xl">
+
+        <!-- Text -->
+        <div>
+          <span class="section-label reveal">About Us</span>
+          <h2 class="text-4xl font-extrabold text-slate-900 mb-6 reveal leading-tight">
+            We Pioneer Advanced<br>Data & AI Applications
+          </h2>
+          <p class="text-lg text-slate-600 leading-relaxed mb-5 reveal">
+            DataDolphin PTE. LTD. is a Singapore-based technology company that combines
+            deep technical expertise with innovative thinking to build powerful tools for
+            data transformation, analysis, and AI-driven decision-making.
+          </p>
+          <p class="text-lg text-slate-600 leading-relaxed mb-8 reveal">
+            We don't just consult — we build and operate our own portfolio of AI-powered
+            products, giving us real-world product experience that directly benefits our clients.
+            From LLM-powered agentic workflows to cross-platform mobile apps, we deliver
+            solutions that scale.
+          </p>
+          <div class="grid grid-cols-2 gap-4 reveal">
+            <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100">
+              <div class="text-2xl mb-2">🇸🇬</div>
+              <div class="font-semibold text-slate-800 text-sm">Based in Singapore</div>
+              <div class="text-slate-500 text-xs mt-1">DataDolphin PTE. LTD.</div>
+            </div>
+            <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100">
+              <div class="text-2xl mb-2">🤖</div>
+              <div class="font-semibold text-slate-800 text-sm">AI-First Approach</div>
+              <div class="text-slate-500 text-xs mt-1">LLMs, ML & Agentic AI</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       SERVICES
+  ================================ -->
+  <section id="services" class="py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="section-label reveal">What We Do</span>
+        <h2 class="text-4xl font-extrabold text-slate-900 mb-4 reveal">Our Services</h2>
+        <p class="text-lg text-slate-500 max-w-2xl mx-auto reveal">
+          End-to-end data and AI solutions — from architecture to deployment — designed to drive measurable business outcomes.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <!-- Service 1 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-100 card-hover reveal">
+          <div class="w-14 h-14 bg-brand-50 rounded-2xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3">Application Development</h3>
+          <p class="text-slate-600 leading-relaxed mb-6 text-sm">
+            Custom data applications for web and mobile. We build intuitive, AI-powered cross-platform apps that deliver real value to end users.
+          </p>
+          <ul class="space-y-2.5">
+            <li class="flex items-start gap-2 text-sm text-slate-600">
+              <svg class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+              </svg>
+              iOS & Android with Flutter
+            </li>
+            <li class="flex items-start gap-2 text-sm text-slate-600">
+              <svg class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+              </svg>
+              Responsive web applications
+            </li>
+            <li class="flex items-start gap-2 text-sm text-slate-600">
+              <svg class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+              </svg>
+              AI-powered features & integrations
+            </li>
+          </ul>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-100 card-hover reveal">
+          <div class="w-14 h-14 bg-sky-50 rounded-2xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3">AI & Data Consultancy</h3>
+          <p class="text-slate-600 leading-relaxed mb-6 text-sm">
+            Expert strategy and hands-on implementation in data engineering, LLM integration, agentic workflows, and scalable ML pipelines.
+          </p>
+          <ul class="space-y-2.5">
+            <li class="flex items-start gap-2 text-sm text-slate-600">
+              <svg class="w-4 h-4 text-sky-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+              </svg>
+              LLM prompt design & AI agents
+            </li>
+            <li class="flex items-start gap-2 text-sm text-slate-600">
+              <svg class="w-4 h-4 text-sky-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+              </svg>
+              Data pipeline architecture
+            </li>
+            <li class="flex items-start gap-2 text-sm text-slate-600">
+              <svg class="w-4 h-4 text-sky-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+              </svg>
+              Cloud infrastructure on GCP
+            </li>
+          </ul>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-100 card-hover reveal">
+          <div class="w-14 h-14 bg-indigo-50 rounded-2xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3">Training & Support</h3>
+          <p class="text-slate-600 leading-relaxed mb-6 text-sm">
+            Comprehensive training and ongoing support for AI and data science teams. We empower your team to build and maintain powerful AI-driven systems.
+          </p>
+          <ul class="space-y-2.5">
+            <li class="flex items-start gap-2 text-sm text-slate-600">
+              <svg class="w-4 h-4 text-indigo-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+              </svg>
+              AI/ML team workshops
+            </li>
+            <li class="flex items-start gap-2 text-sm text-slate-600">
+              <svg class="w-4 h-4 text-indigo-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+              </svg>
+              LLM prompt engineering
+            </li>
+            <li class="flex items-start gap-2 text-sm text-slate-600">
+              <svg class="w-4 h-4 text-indigo-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+              </svg>
+              Ongoing technical support
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       TECHNOLOGY
+  ================================ -->
+  <section id="technology" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="section-label reveal">Our Stack</span>
+        <h2 class="text-4xl font-extrabold text-slate-900 mb-4 reveal">Technology & Approach</h2>
+        <p class="text-lg text-slate-500 max-w-2xl mx-auto reveal">
+          Built on robust modern technologies engineered for precision, scalability, and real-world performance.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 reveal">
+        <div class="tech-pill bg-slate-50 border border-slate-100 rounded-2xl p-6 text-center">
+          <div class="text-3xl mb-3">🤖</div>
+          <div class="font-semibold text-slate-800 text-sm">AI & ML</div>
+          <div class="text-xs text-slate-500 mt-1">Precision & Efficiency</div>
+        </div>
+        <div class="tech-pill bg-slate-50 border border-slate-100 rounded-2xl p-6 text-center">
+          <div class="text-3xl mb-3">💬</div>
+          <div class="font-semibold text-slate-800 text-sm">LLM Integration</div>
+          <div class="text-xs text-slate-500 mt-1">Prompt Design & Agents</div>
+        </div>
+        <div class="tech-pill bg-slate-50 border border-slate-100 rounded-2xl p-6 text-center">
+          <div class="text-3xl mb-3">🔗</div>
+          <div class="font-semibold text-slate-800 text-sm">Agentic Workflows</div>
+          <div class="text-xs text-slate-500 mt-1">Autonomous AI Systems</div>
+        </div>
+        <div class="tech-pill bg-slate-50 border border-slate-100 rounded-2xl p-6 text-center">
+          <div class="text-3xl mb-3">📱</div>
+          <div class="font-semibold text-slate-800 text-sm">Flutter</div>
+          <div class="text-xs text-slate-500 mt-1">iOS & Android</div>
+        </div>
+        <div class="tech-pill bg-slate-50 border border-slate-100 rounded-2xl p-6 text-center">
+          <div class="text-3xl mb-3">🔄</div>
+          <div class="font-semibold text-slate-800 text-sm">ETL Pipelines</div>
+          <div class="text-xs text-slate-500 mt-1">Airflow & DBT</div>
+        </div>
+        <div class="tech-pill bg-slate-50 border border-slate-100 rounded-2xl p-6 text-center">
+          <div class="text-3xl mb-3">🐍</div>
+          <div class="font-semibold text-slate-800 text-sm">Python & SQL</div>
+          <div class="text-xs text-slate-500 mt-1">Data Engineering</div>
+        </div>
+        <div class="tech-pill bg-slate-50 border border-slate-100 rounded-2xl p-6 text-center">
+          <div class="text-3xl mb-3">⚡</div>
+          <div class="font-semibold text-slate-800 text-sm">Data Processing</div>
+          <div class="text-xs text-slate-500 mt-1">Streaming & Batch</div>
+        </div>
+        <div class="tech-pill bg-gradient-to-br from-brand-50 to-indigo-50 border border-brand-100 rounded-2xl p-6 text-center">
+          <div class="text-3xl mb-3">☁️</div>
+          <div class="font-semibold text-brand-700 text-sm">Google Cloud</div>
+          <div class="text-xs text-brand-500 mt-1">Scalable Infrastructure</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       PORTFOLIO
+  ================================ -->
+  <section id="portfolio" class="py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="section-label reveal">Our Work</span>
+        <h2 class="text-4xl font-extrabold text-slate-900 mb-4 reveal">Product Portfolio</h2>
+        <p class="text-lg text-slate-500 max-w-2xl mx-auto reveal">
+          We build and operate our own AI-powered products — real proof of our technical depth and product thinking.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Product 1: Looksmax Report -->
+        <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 card-hover reveal flex flex-col">
+          <div class="product-header-1 h-44 flex items-center justify-center relative overflow-hidden">
+            <!-- Looksmax Report: phone + face analysis SVG -->
+            <svg viewBox="0 0 130 158" xmlns="http://www.w3.org/2000/svg" class="h-40 w-auto relative z-10">
+              <!-- Phone body -->
+              <rect x="18" y="2" rx="13" width="94" height="154" fill="rgba(0,0,0,0.28)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
+              <rect x="23" y="15" rx="8" width="84" height="128" fill="rgba(255,255,255,0.07)"/>
+              <!-- Notch -->
+              <rect x="48" y="7" rx="4" width="34" height="9" fill="rgba(0,0,0,0.4)"/>
+              <!-- Face outline -->
+              <ellipse cx="65" cy="60" rx="21" ry="25" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="1.6"/>
+              <!-- Eyes -->
+              <ellipse cx="57" cy="55" rx="5" ry="4" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.3"/>
+              <ellipse cx="73" cy="55" rx="5" ry="4" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.3"/>
+              <!-- Pupils -->
+              <circle cx="57" cy="55" r="2" fill="rgba(255,255,255,0.5)"/>
+              <circle cx="73" cy="55" r="2" fill="rgba(255,255,255,0.5)"/>
+              <!-- Nose -->
+              <path d="M63 63 L61 70 Q65 72 69 70 L67 63" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.1" stroke-linejoin="round"/>
+              <!-- Mouth -->
+              <path d="M57 77 Q65 83 73 77" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.4" stroke-linecap="round"/>
+              <!-- Centre axis -->
+              <line x1="65" y1="34" x2="65" y2="86" stroke="rgba(255,215,0,0.55)" stroke-width="0.9" stroke-dasharray="3,3"/>
+              <!-- Horizontal measure lines -->
+              <line x1="24" y1="55" x2="43" y2="55" stroke="rgba(255,215,0,0.8)" stroke-width="0.9"/>
+              <line x1="87" y1="55" x2="106" y2="55" stroke="rgba(255,215,0,0.8)" stroke-width="0.9"/>
+              <circle cx="44" cy="55" r="2.2" fill="rgba(255,215,0,1)"/>
+              <circle cx="86" cy="55" r="2.2" fill="rgba(255,215,0,1)"/>
+              <!-- Score card -->
+              <rect x="24" y="97" rx="6" width="82" height="40" fill="rgba(0,0,0,0.22)"/>
+              <text x="29" y="110" font-size="6.5" fill="rgba(255,255,255,0.6)" font-family="Arial,sans-serif">Symmetry</text>
+              <rect x="29" y="113" rx="2" width="56" height="3.5" fill="rgba(255,255,255,0.18)"/>
+              <rect x="29" y="113" rx="2" width="49" height="3.5" fill="rgba(255,255,255,0.9)"/>
+              <text x="91" y="118" font-size="6" fill="white" font-family="Arial,sans-serif" text-anchor="end">87%</text>
+              <text x="29" y="127" font-size="6.5" fill="rgba(255,255,255,0.6)" font-family="Arial,sans-serif">Jawline</text>
+              <rect x="29" y="130" rx="2" width="56" height="3.5" fill="rgba(255,255,255,0.18)"/>
+              <rect x="29" y="130" rx="2" width="42" height="3.5" fill="rgba(255,255,255,0.9)"/>
+              <text x="91" y="135" font-size="6" fill="white" font-family="Arial,sans-serif" text-anchor="end">75%</text>
+            </svg>
+            <span class="absolute top-3 right-3 bg-white/25 backdrop-blur-sm text-white text-xs font-semibold px-2.5 py-1 rounded-full">iOS · Android</span>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Looksmax Report</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-1">
+              Sophisticated mobile app providing detailed AI facial analysis and personalised improvement recommendations.
+            </p>
+            <div class="flex flex-wrap gap-1.5 mb-5">
+              <span class="bg-slate-100 text-slate-600 text-xs font-medium px-2.5 py-1 rounded-full">AI Analysis</span>
+              <span class="bg-slate-100 text-slate-600 text-xs font-medium px-2.5 py-1 rounded-full">Computer Vision</span>
+            </div>
+            <div class="flex gap-2">
+              <a href="https://apps.apple.com/app/looksmax-report/id6737451002" target="_blank" rel="noopener"
+                 class="flex-1 btn-primary text-white text-xs font-semibold py-2.5 rounded-xl text-center">App Store</a>
+              <a href="https://play.google.com/store/apps/details?id=com.rsapps.looksmaxreport" target="_blank" rel="noopener"
+                 class="flex-1 bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold py-2.5 rounded-xl text-center transition-colors">Google Play</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2: Attractiveness AI -->
+        <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 card-hover reveal flex flex-col">
+          <div class="product-header-2 h-44 flex items-center justify-center relative overflow-hidden">
+            <!-- Attractiveness AI: phone + score overlay SVG -->
+            <svg viewBox="0 0 130 158" xmlns="http://www.w3.org/2000/svg" class="h-40 w-auto relative z-10">
+              <!-- Phone body -->
+              <rect x="18" y="2" rx="13" width="94" height="154" fill="rgba(0,0,0,0.28)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
+              <rect x="23" y="15" rx="8" width="84" height="128" fill="rgba(255,255,255,0.07)"/>
+              <rect x="48" y="7" rx="4" width="34" height="9" fill="rgba(0,0,0,0.4)"/>
+              <!-- Face -->
+              <ellipse cx="65" cy="58" rx="20" ry="24" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.85)" stroke-width="1.5"/>
+              <ellipse cx="57" cy="53" rx="4.5" ry="3.5" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.8)" stroke-width="1.2"/>
+              <ellipse cx="73" cy="53" rx="4.5" ry="3.5" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.8)" stroke-width="1.2"/>
+              <path d="M58 75 Q65 80 72 75" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.4" stroke-linecap="round"/>
+              <!-- Sparkles around face -->
+              <text x="28" y="38" font-size="10" font-family="Arial" fill="rgba(255,255,255,0.9)">✦</text>
+              <text x="90" y="34" font-size="8" font-family="Arial" fill="rgba(255,255,255,0.7)">✦</text>
+              <text x="95" y="70" font-size="7" font-family="Arial" fill="rgba(255,255,255,0.8)">✦</text>
+              <text x="22" y="72" font-size="6" font-family="Arial" fill="rgba(255,255,255,0.6)">✦</text>
+              <!-- Score badge -->
+              <rect x="42" y="86" rx="8" width="46" height="26" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+              <text x="65" y="97" font-size="7" fill="rgba(255,255,255,0.75)" font-family="Arial,sans-serif" text-anchor="middle">Score</text>
+              <text x="65" y="108" font-size="11" fill="white" font-family="Arial,sans-serif" font-weight="bold" text-anchor="middle">8.7/10</text>
+              <!-- Star rating -->
+              <text x="36" y="125" font-size="10" fill="rgba(255,220,0,0.95)" font-family="Arial">★★★★★</text>
+              <!-- Category pills -->
+              <rect x="26" y="131" rx="4" width="36" height="10" fill="rgba(255,255,255,0.18)"/>
+              <text x="44" y="139" font-size="5.5" fill="white" font-family="Arial,sans-serif" text-anchor="middle">Bone Structure</text>
+              <rect x="67" y="131" rx="4" width="36" height="10" fill="rgba(255,255,255,0.18)"/>
+              <text x="85" y="139" font-size="5.5" fill="white" font-family="Arial,sans-serif" text-anchor="middle">Skin Quality</text>
+            </svg>
+            <span class="absolute top-3 right-3 bg-white/25 backdrop-blur-sm text-white text-xs font-semibold px-2.5 py-1 rounded-full">iOS · Android · Web</span>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Attractiveness AI</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-1">
+              Advanced AI app analysing facial features to provide detailed attractiveness insights and personalised feedback.
+            </p>
+            <div class="flex flex-wrap gap-1.5 mb-5">
+              <span class="bg-slate-100 text-slate-600 text-xs font-medium px-2.5 py-1 rounded-full">Facial AI</span>
+              <span class="bg-slate-100 text-slate-600 text-xs font-medium px-2.5 py-1 rounded-full">Multi-Platform</span>
+            </div>
+            <div class="flex gap-2">
+              <a href="https://apps.apple.com/us/app/attractiveness-ai/id6741153581" target="_blank" rel="noopener"
+                 class="flex-1 btn-primary text-white text-xs font-semibold py-2.5 rounded-xl text-center">App Store</a>
+              <a href="https://attractivenessai.com/" target="_blank"
+                 class="flex-1 bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold py-2.5 rounded-xl text-center transition-colors">Website</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3: Rate My Photo -->
+        <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 card-hover reveal flex flex-col">
+          <div class="product-header-3 h-44 flex items-center justify-center relative overflow-hidden">
+            <!-- Rate My Photo: browser card + photo + stars SVG -->
+            <svg viewBox="0 0 190 145" xmlns="http://www.w3.org/2000/svg" class="h-36 w-auto relative z-10">
+              <!-- Browser card -->
+              <rect x="5" y="2" rx="10" width="180" height="141" fill="rgba(0,0,0,0.22)" stroke="rgba(255,255,255,0.35)" stroke-width="1.2"/>
+              <!-- Browser bar -->
+              <rect x="5" y="2" rx="10" width="180" height="22" fill="rgba(0,0,0,0.2)"/>
+              <rect x="5" y="14" width="180" height="10" fill="rgba(0,0,0,0.2)"/>
+              <circle cx="20" cy="13" r="4" fill="rgba(255,100,100,0.7)"/>
+              <circle cx="32" cy="13" r="4" fill="rgba(255,200,0,0.7)"/>
+              <circle cx="44" cy="13" r="4" fill="rgba(100,220,100,0.7)"/>
+              <rect x="58" y="8" rx="4" width="100" height="10" fill="rgba(255,255,255,0.15)"/>
+              <!-- Photo area -->
+              <rect x="14" y="30" rx="6" width="80" height="100" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+              <!-- Photo icon -->
+              <circle cx="54" cy="68" r="16" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+              <circle cx="54" cy="65" r="7" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.6)" stroke-width="1"/>
+              <path d="M38 80 L48 68 L56 76 L64 68 L70 80" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+              <!-- Right panel: results -->
+              <rect x="102" y="30" rx="6" width="83" height="44" fill="rgba(255,255,255,0.1)"/>
+              <text x="110" y="46" font-size="7" fill="rgba(255,255,255,0.7)" font-family="Arial,sans-serif">Overall Rating</text>
+              <text x="110" y="60" font-size="13" fill="white" font-family="Arial,sans-serif" font-weight="bold">9.2 / 10</text>
+              <text x="110" y="71" font-size="9" fill="rgba(255,220,0,0.95)" font-family="Arial">★★★★★</text>
+              <!-- Score bars -->
+              <text x="102" y="88" font-size="6" fill="rgba(255,255,255,0.65)" font-family="Arial,sans-serif">Composition</text>
+              <rect x="102" y="91" rx="2" width="70" height="3.5" fill="rgba(255,255,255,0.18)"/>
+              <rect x="102" y="91" rx="2" width="64" height="3.5" fill="rgba(255,255,255,0.85)"/>
+              <text x="102" y="103" font-size="6" fill="rgba(255,255,255,0.65)" font-family="Arial,sans-serif">Lighting</text>
+              <rect x="102" y="106" rx="2" width="70" height="3.5" fill="rgba(255,255,255,0.18)"/>
+              <rect x="102" y="106" rx="2" width="58" height="3.5" fill="rgba(255,255,255,0.85)"/>
+              <text x="102" y="118" font-size="6" fill="rgba(255,255,255,0.65)" font-family="Arial,sans-serif">Sharpness</text>
+              <rect x="102" y="121" rx="2" width="70" height="3.5" fill="rgba(255,255,255,0.18)"/>
+              <rect x="102" y="121" rx="2" width="66" height="3.5" fill="rgba(255,255,255,0.85)"/>
+            </svg>
+            <span class="absolute top-3 right-3 bg-white/25 backdrop-blur-sm text-white text-xs font-semibold px-2.5 py-1 rounded-full">Web</span>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Rate My Photo</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-1">
+              AI-powered web platform offering professional photo analysis and detailed quality feedback.
+            </p>
+            <div class="flex flex-wrap gap-1.5 mb-5">
+              <span class="bg-slate-100 text-slate-600 text-xs font-medium px-2.5 py-1 rounded-full">Photo AI</span>
+              <span class="bg-slate-100 text-slate-600 text-xs font-medium px-2.5 py-1 rounded-full">Web Platform</span>
+            </div>
+            <a href="https://rate-my-photo.com/" target="_blank"
+               class="btn-primary text-white text-xs font-semibold py-2.5 rounded-xl text-center">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Product 4: Attractiveness Test -->
+        <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 card-hover reveal flex flex-col">
+          <div class="product-header-4 h-44 flex items-center justify-center relative overflow-hidden">
+            <!-- Attractiveness Test: circular gauge + breakdown SVG -->
+            <svg viewBox="0 0 190 145" xmlns="http://www.w3.org/2000/svg" class="h-36 w-auto relative z-10">
+              <!-- Card background -->
+              <rect x="5" y="2" rx="10" width="180" height="141" fill="rgba(0,0,0,0.2)" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+              <!-- Title -->
+              <text x="95" y="20" font-size="8" fill="rgba(255,255,255,0.7)" font-family="Arial,sans-serif" text-anchor="middle">Attractiveness Score</text>
+              <!-- Circular gauge background arc -->
+              <circle cx="70" cy="82" r="44" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="9"/>
+              <!-- Score arc (≈85% = 306°, start from -90°) -->
+              <circle cx="70" cy="82" r="44" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="9"
+                stroke-dasharray="235 277" stroke-dashoffset="69" stroke-linecap="round"
+                transform="rotate(-90 70 82)"/>
+              <!-- Inner glow ring -->
+              <circle cx="70" cy="82" r="34" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+              <!-- Score number -->
+              <text x="70" y="77" font-size="24" fill="white" font-family="Arial,sans-serif" font-weight="bold" text-anchor="middle">85</text>
+              <text x="70" y="90" font-size="7" fill="rgba(255,255,255,0.65)" font-family="Arial,sans-serif" text-anchor="middle">out of 100</text>
+              <!-- Label below gauge -->
+              <text x="70" y="133" font-size="7" fill="rgba(255,255,255,0.6)" font-family="Arial,sans-serif" text-anchor="middle">Very Attractive</text>
+              <!-- Right breakdown -->
+              <rect x="124" y="26" rx="5" width="58" height="110" fill="rgba(255,255,255,0.1)"/>
+              <text x="153" y="41" font-size="6.5" fill="rgba(255,255,255,0.65)" font-family="Arial,sans-serif" text-anchor="middle">Categories</text>
+              <text x="128" y="57" font-size="6" fill="rgba(255,255,255,0.6)" font-family="Arial">Eyes</text>
+              <rect x="128" y="60" rx="2" width="50" height="3.5" fill="rgba(255,255,255,0.18)"/>
+              <rect x="128" y="60" rx="2" width="44" height="3.5" fill="rgba(255,255,255,0.85)"/>
+              <text x="128" y="74" font-size="6" fill="rgba(255,255,255,0.6)" font-family="Arial">Jawline</text>
+              <rect x="128" y="77" rx="2" width="50" height="3.5" fill="rgba(255,255,255,0.18)"/>
+              <rect x="128" y="77" rx="2" width="38" height="3.5" fill="rgba(255,255,255,0.85)"/>
+              <text x="128" y="91" font-size="6" fill="rgba(255,255,255,0.6)" font-family="Arial">Skin</text>
+              <rect x="128" y="94" rx="2" width="50" height="3.5" fill="rgba(255,255,255,0.18)"/>
+              <rect x="128" y="94" rx="2" width="46" height="3.5" fill="rgba(255,255,255,0.85)"/>
+              <text x="128" y="108" font-size="6" fill="rgba(255,255,255,0.6)" font-family="Arial">Hair</text>
+              <rect x="128" y="111" rx="2" width="50" height="3.5" fill="rgba(255,255,255,0.18)"/>
+              <rect x="128" y="111" rx="2" width="40" height="3.5" fill="rgba(255,255,255,0.85)"/>
+            </svg>
+            <span class="absolute top-3 right-3 bg-white/25 backdrop-blur-sm text-white text-xs font-semibold px-2.5 py-1 rounded-full">Web</span>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Attractiveness Test</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-1">
+              AI-powered web platform for comprehensive facial analysis and attractiveness scoring with detailed breakdowns.
+            </p>
+            <div class="flex flex-wrap gap-1.5 mb-5">
+              <span class="bg-slate-100 text-slate-600 text-xs font-medium px-2.5 py-1 rounded-full">AI Scoring</span>
+              <span class="bg-slate-100 text-slate-600 text-xs font-medium px-2.5 py-1 rounded-full">Web Platform</span>
+            </div>
+            <a href="https://attractivenesstest.com/" target="_blank"
+               class="btn-primary text-white text-xs font-semibold py-2.5 rounded-xl text-center">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Product 5: SkinMax -->
+        <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 card-hover reveal flex flex-col">
+          <div class="product-header-5 h-44 flex items-center justify-center relative overflow-hidden">
+            <!-- SkinMax: face with skin zone analysis SVG -->
+            <svg viewBox="0 0 190 145" xmlns="http://www.w3.org/2000/svg" class="h-36 w-auto relative z-10">
+              <!-- Card -->
+              <rect x="5" y="2" rx="10" width="180" height="141" fill="rgba(0,0,0,0.18)" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+              <text x="95" y="18" font-size="8" fill="rgba(255,255,255,0.75)" font-family="Arial,sans-serif" text-anchor="middle">Skin Analysis</text>
+              <!-- Face outline -->
+              <ellipse cx="72" cy="78" rx="36" ry="44" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+              <!-- Forehead zone (hydration - blue tint) -->
+              <ellipse cx="72" cy="50" rx="22" ry="12" fill="rgba(100,180,255,0.25)" stroke="rgba(100,180,255,0.6)" stroke-width="1" stroke-dasharray="3,2"/>
+              <!-- Cheek zones (sensitivity - pink) -->
+              <ellipse cx="46" cy="80" rx="12" ry="10" fill="rgba(255,150,150,0.25)" stroke="rgba(255,150,150,0.6)" stroke-width="1" stroke-dasharray="3,2"/>
+              <ellipse cx="98" cy="80" rx="12" ry="10" fill="rgba(255,150,150,0.25)" stroke="rgba(255,150,150,0.6)" stroke-width="1" stroke-dasharray="3,2"/>
+              <!-- T-zone (oily - yellow) -->
+              <rect x="66" y="52" rx="4" width="12" height="40" fill="rgba(255,220,80,0.2)" stroke="rgba(255,220,80,0.55)" stroke-width="1" stroke-dasharray="3,2"/>
+              <!-- Chin zone -->
+              <ellipse cx="72" cy="110" rx="14" ry="8" fill="rgba(180,120,255,0.22)" stroke="rgba(180,120,255,0.55)" stroke-width="1" stroke-dasharray="3,2"/>
+              <!-- Eyes placeholder -->
+              <ellipse cx="59" cy="73" rx="7" ry="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.6)" stroke-width="1"/>
+              <ellipse cx="85" cy="73" rx="7" ry="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.6)" stroke-width="1"/>
+              <!-- Mouth -->
+              <path d="M61 100 Q72 107 83 100" fill="none" stroke="rgba(255,255,255,0.65)" stroke-width="1.3" stroke-linecap="round"/>
+              <!-- Right legend -->
+              <rect x="118" y="26" rx="5" width="64" height="112" fill="rgba(255,255,255,0.1)"/>
+              <text x="150" y="40" font-size="6.5" fill="rgba(255,255,255,0.7)" font-family="Arial,sans-serif" text-anchor="middle">Skin Health</text>
+              <!-- Legend items -->
+              <circle cx="126" cy="55" r="4" fill="rgba(100,180,255,0.6)"/>
+              <text x="133" y="58" font-size="6" fill="rgba(255,255,255,0.75)" font-family="Arial">Hydration 82%</text>
+              <circle cx="126" cy="70" r="4" fill="rgba(255,220,80,0.7)"/>
+              <text x="133" y="73" font-size="6" fill="rgba(255,255,255,0.75)" font-family="Arial">Oil Control 71%</text>
+              <circle cx="126" cy="85" r="4" fill="rgba(255,150,150,0.65)"/>
+              <text x="133" y="88" font-size="6" fill="rgba(255,255,255,0.75)" font-family="Arial">Sensitivity 45%</text>
+              <circle cx="126" cy="100" r="4" fill="rgba(180,120,255,0.65)"/>
+              <text x="133" y="103" font-size="6" fill="rgba(255,255,255,0.75)" font-family="Arial">Pores 68%</text>
+              <!-- Overall score -->
+              <rect x="121" y="112" rx="4" width="56" height="18" fill="rgba(255,255,255,0.15)"/>
+              <text x="149" y="124" font-size="8" fill="white" font-family="Arial,sans-serif" font-weight="bold" text-anchor="middle">Score: 76</text>
+            </svg>
+            <span class="absolute top-3 right-3 bg-white/25 backdrop-blur-sm text-white text-xs font-semibold px-2.5 py-1 rounded-full">Web</span>
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <h3 class="text-lg font-bold text-slate-900 mb-2">SkinMax — AI Skincare</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-1">
+              Advanced AI skincare analysis platform that delivers personalised skin health insights and product recommendations.
+            </p>
+            <div class="flex flex-wrap gap-1.5 mb-5">
+              <span class="bg-slate-100 text-slate-600 text-xs font-medium px-2.5 py-1 rounded-full">Skincare AI</span>
+              <span class="bg-slate-100 text-slate-600 text-xs font-medium px-2.5 py-1 rounded-full">Personalised</span>
+            </div>
+            <a href="https://howolddoyoulook.com/skincare" target="_blank"
+               class="btn-primary text-white text-xs font-semibold py-2.5 rounded-xl text-center">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- CTA Card -->
+        <div class="bg-gradient-to-br from-brand-600 to-indigo-600 rounded-3xl p-8 flex flex-col justify-center items-center text-center card-hover reveal">
+          <div class="w-14 h-14 bg-white/20 rounded-2xl flex items-center justify-center mb-5">
+            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Have an Idea?</h3>
+          <p class="text-white/75 text-sm leading-relaxed mb-7">
+            Let's build something extraordinary together. We'd love to hear about your project.
+          </p>
+          <a href="#contact" class="bg-white text-brand-700 hover:bg-brand-50 font-semibold text-sm px-6 py-3 rounded-full transition-colors">
+            Start a Conversation
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       CONTACT
+  ================================ -->
+  <section id="contact" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+      <div class="max-w-2xl mx-auto text-center">
+        <span class="section-label reveal">Contact</span>
+        <h2 class="text-4xl font-extrabold text-slate-900 mb-4 reveal">Let's Work Together</h2>
+        <p class="text-lg text-slate-500 mb-12 reveal">
+          Questions about our products, interested in a partnership, or need expert AI and data consultancy? We'd love to hear from you.
+        </p>
+
+        <div class="bg-gradient-to-br from-slate-50 to-brand-50 border border-slate-100 rounded-3xl p-10 reveal">
+          <div class="flex flex-col items-center gap-6">
+            <div class="w-16 h-16 bg-white border border-slate-100 shadow-sm rounded-2xl flex items-center justify-center">
+              <svg class="w-8 h-8 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="text-slate-500 text-sm font-medium mb-2">Send us an email</p>
+              <p class="text-xl font-bold text-slate-900" id="contact-email"></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       FOOTER
+  ================================ -->
+  <footer class="bg-slate-900 py-10">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-3">
+          <img src="logo.png" alt="DataDolphin" class="h-7 w-auto opacity-60">
+          <span class="font-semibold text-slate-300">DataDolphin</span>
+          <span class="text-slate-600 text-sm">PTE. LTD.</span>
+        </div>
+        <p class="text-slate-500 text-sm">© 2025 DataDolphin PTE. LTD. All rights reserved.</p>
+        <div class="flex items-center gap-6 text-sm text-slate-400">
+          <a href="privacy-policy.html" class="hover:text-slate-200 transition-colors">Privacy Policy</a>
+          <a href="terms-of-use.html" class="hover:text-slate-200 transition-colors">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ==============================
+       SCRIPTS
+  ================================ -->
+  <script>
+    // -------- PARTICLE CANVAS --------
+    (function () {
+      const canvas = document.getElementById('particles-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let particles = [];
+      const COUNT = 65;
+      const MAX_DIST = 130;
+
+      function resize() {
+        canvas.width = canvas.parentElement.offsetWidth;
+        canvas.height = canvas.parentElement.offsetHeight;
+      }
+
+      function Particle() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.vx = (Math.random() - 0.5) * 0.45;
+        this.vy = (Math.random() - 0.5) * 0.45;
+        this.r = Math.random() * 1.8 + 0.8;
+        this.a = Math.random() * 0.35 + 0.08;
+      }
+
+      Particle.prototype.update = function () {
+        this.x += this.vx;
+        this.y += this.vy;
+        if (this.x < -5) this.x = canvas.width + 5;
+        if (this.x > canvas.width + 5) this.x = -5;
+        if (this.y < -5) this.y = canvas.height + 5;
+        if (this.y > canvas.height + 5) this.y = -5;
+      };
+
+      Particle.prototype.draw = function () {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(37,99,235,' + this.a + ')';
+        ctx.fill();
+      };
+
+      function init() {
+        resize();
+        particles = [];
+        for (var i = 0; i < COUNT; i++) particles.push(new Particle());
+      }
+
+      function drawLines() {
+        for (var i = 0; i < particles.length; i++) {
+          for (var j = i + 1; j < particles.length; j++) {
+            var dx = particles[i].x - particles[j].x;
+            var dy = particles[i].y - particles[j].y;
+            var d = Math.sqrt(dx * dx + dy * dy);
+            if (d < MAX_DIST) {
+              ctx.beginPath();
+              ctx.moveTo(particles[i].x, particles[i].y);
+              ctx.lineTo(particles[j].x, particles[j].y);
+              ctx.strokeStyle = 'rgba(37,99,235,' + (1 - d / MAX_DIST) * 0.1 + ')';
+              ctx.lineWidth = 0.7;
+              ctx.stroke();
+            }
+          }
+        }
+      }
+
+      function loop() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach(function (p) { p.update(); p.draw(); });
+        drawLines();
+        requestAnimationFrame(loop);
+      }
+
+      init();
+      loop();
+      window.addEventListener('resize', init);
+    })();
+
+
+    // -------- SCROLL REVEAL --------
+    var reveals = document.querySelectorAll('.reveal');
+    var revealObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) e.target.classList.add('visible');
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+    reveals.forEach(function (el) { revealObserver.observe(el); });
+
+    // Trigger already-visible elements on load
+    setTimeout(function () {
+      reveals.forEach(function (el) {
+        if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add('visible');
+      });
+    }, 80);
+
+
+    // -------- NAV SHADOW ON SCROLL --------
+    var navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', function () {
+      navbar.style.boxShadow = window.scrollY > 20 ? '0 2px 20px rgba(0,0,0,0.07)' : 'none';
+    }, { passive: true });
+
+
+    // -------- MOBILE MENU --------
+    var mobileBtn  = document.getElementById('mobile-btn');
+    var mobileMenu = document.getElementById('mobile-menu');
+    var iconOpen   = document.getElementById('icon-open');
+    var iconClose  = document.getElementById('icon-close');
+
+    mobileBtn.addEventListener('click', function () {
+      var open = mobileMenu.classList.toggle('hidden');
+      iconOpen.classList.toggle('hidden');
+      iconClose.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('.nav-link').forEach(function (link) {
+      link.addEventListener('click', function () {
+        mobileMenu.classList.add('hidden');
+        iconOpen.classList.remove('hidden');
+        iconClose.classList.add('hidden');
+      });
+    });
+
+
+    // -------- EMAIL OBFUSCATION --------
+    var e = ['info', 'datadolphin', 'net'];
+    var addr = e[0] + '@' + e[1] + '.' + e[2];
+    var el = document.getElementById('contact-email');
+    if (el) el.innerHTML = '<a href="mailto:' + addr + '" class="text-brand-600 hover:text-brand-700 transition-colors">' + addr + '</a>';
+  </script>
+
+</body>
+</html>
